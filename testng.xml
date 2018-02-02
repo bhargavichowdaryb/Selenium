@@ -6,7 +6,4 @@
       <class name="NewProject.NewProject.AppTest1"/>
     </classes>
   </test> <!-- Test -->
-  <listeners>
-        <listener class-name="com.pack.test.RetryListener"/>
-  </listeners>
 </suite> <!-- Suite -->
