@@ -28,13 +28,5 @@ public class AppTest1 {
 		driver.quit();
 	}
 
-	@Test(retryAnalyzer = RetryAnalyzer.class)
-	public void Test2()
-	{
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.practo.com/");
-		Assert.assertEquals(false, true);
-	}
-    
 
 }
